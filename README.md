@@ -7,6 +7,8 @@
 
 Unlike standard "game" simulations, this project solves the **Point Kinetics Equations** with **6-Group Delayed Neutron Precursors** in real-time (60 FPS) within the browser. It accurately models reactivity feedback loops, thermal hydraulics, and transient reactor behavior.
 
+🚀 **Live Demo:** [https://nucleusprime.netlify.app/](https://nucleusprime.netlify.app/)
+
 ## ⚛️ Physics Engine Features
 The simulation runs on a custom TypeScript physics engine (`reactorCore.ts`) implementing:
 
@@ -23,7 +25,7 @@ The simulation runs on a custom TypeScript physics engine (`reactorCore.ts`) imp
 * **UI/UX:** Tailwind CSS, Tremor (Dashboard components), Lucide React
 * **Performance:** Runge-Kutta/Euler integration running at 60Hz via `requestAnimationFrame`.
 
-## 🚀 How to Run
+## 🚀 How to Run Locally
 1.  Clone the repository
 2.  Install dependencies:
     ```bash
