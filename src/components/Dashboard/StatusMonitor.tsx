@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Metric, Text, Flex, ProgressBar, Badge } from '@tremor/react';
-import { Activity, Thermometer, Zap, AlertTriangle } from 'lucide-react';
+import { Activity, Thermometer, Zap } from 'lucide-react';
 import type { ReactorState } from '../../physics/reactorCore';
 
 interface StatusMonitorProps {
